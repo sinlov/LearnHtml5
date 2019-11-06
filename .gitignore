@@ -5,7 +5,6 @@ gen
 
 ### node template
 node_modules/
-package-lock.json
 
 ## yarn
 yarn.lock

@@ -22,9 +22,25 @@ clean: cleanBuild cleanLog
 	@echo "~> clean finish"
 
 dependencies:
-	@echo "this project need [ node ] [ yarn ] [ gulp ]"
+	@echo "this project need [ node ] [ npm ] [ gulp ]"
+	@echo "if use registry can use [echo 'registry=https://registry.npm.taobao.org/' >> ~/.npmrc]"
+	@echo ""
+	@echo "also can use npm-check as [ npm install -g npm-check ]"
+	@echo "and run [ npm-check -u ]"
+	@echo ""
+	@echo "if use yarn can use as"
 	@echo "just install yarn by https://yarnpkg.com"
 	@echo "just install gulp by -> npm install --global gulp"
+	@echo ""
+	npm i
+
+dependenciesGraph:
+	@echo "use npm-remote-ls to graph if error just run [ npm install -g npm-remote-ls]"
+	@echo ""
+	npm-remote-ls bower
+
+dep: dependencies
+	npm i
 
 build:
 	gulp build
