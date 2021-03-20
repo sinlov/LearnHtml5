@@ -24,7 +24,7 @@
     "mocha": "^5.2.0",
     "modernizr": "3.7.1",
     "normalize.css": "8.0.1",
-    "ssri": "^6.0.1",
+    "ssri": "^8.0.1",
     "strip-json-comments": "^2.0.1"
   },
   "engines": {
