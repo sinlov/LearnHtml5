@@ -12,7 +12,7 @@
     "eslint-plugin-mocha": "^5.3.0",
     "glob": "^7.1.4",
     "gulp": "^5.0.0",
-    "gulp-autoprefixer": "^7.0.0",
+    "gulp-autoprefixer": "^9.0.0",
     "gulp-eslint": "^6.0.0",
     "gulp-header": "^2.0.9",
     "gulp-jscs": "^4.1.0",
